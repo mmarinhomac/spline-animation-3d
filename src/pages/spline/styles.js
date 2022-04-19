@@ -8,23 +8,11 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
 
-  background: #7036CD;
+  background: #130032;
 
   h1 {
     color: white;
-  }
-
-  div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    width: 1200px;
-    height: 100%;
-  }
-
-  canvas {
-    width: 100% !important;
-    height: 100% !important;
+    z-index: 1;
+    margin-left: -720px;
   }
 `;

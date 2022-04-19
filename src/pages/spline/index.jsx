@@ -6,10 +6,15 @@ import { Container } from './styles';
 function SplinePage() {
   return (
     <Container>
-      <div>
-        <h1>Hello Spline 🚀</h1>
-        <Spline scene="./scene.spline" style={{ width: '900px', height: '900px' }} />
-      </div>
+      <Spline 
+        scene="./scene.spline" 
+        style={{ 
+          position: 'fixed', 
+          top: '0', 
+          left: '0'
+        }}
+      />
+      <h1>Hello World<br/><strong>Spline Design 🚀</strong></h1>
     </Container>
   );
 }
